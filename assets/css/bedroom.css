@@ -1,0 +1,24 @@
+/* export const backgrounds = ["/wp-content/themes/interact-room/images/448502.jpg", "/wp-content/themes/interact-room/images/448519.jpg", "/wp-content/themes/interact-room/images/448526.jpg", "/wp-content/themes/interact-room/images/448502.jpg",] */
+
+#left-bedroom {
+  width: 37.5%;
+  height: 47vw;
+  perspective: 170px;
+  z-index: -1;
+}
+
+#center-bedroom {
+  position: absolute;
+  width: 40.7%;
+  height: 27vw;
+  top: 11vw;
+  left: 30%;
+  z-index: -1;
+}
+
+#right-bedroom {
+  width: 37.5%;
+  height: 45vw;
+  perspective: 185px;
+  z-index: -2;
+}

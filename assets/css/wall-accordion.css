@@ -1,0 +1,58 @@
+.accordion {
+  position: relative;
+  cursor: pointer;
+  display: block;
+  width: 44px;
+  height: 44px;
+  margin: auto;
+  margin-bottom: 10px;
+  background-size: 44px 93px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.accordion img{
+  width: 100%;
+}
+
+.panel {
+  padding: 0;
+  display: none;
+  background-color: rgb(235, 229, 181);
+  overflow: hidden;
+  border-radius: 20%;
+}
+
+.panel-img {
+  width: 44px;
+  height: 44px;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.wall-info-button {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  cursor: pointer;
+}
+
+.wall-info {
+  position: absolute;
+  display: none;
+  top: -70px;
+  right: -25px;
+  width: 110%;
+  padding: 5px;
+  background-color: grey;
+  border-radius: 30px;
+  color: white;
+}
+
+.wall-info a {
+  display: block;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}

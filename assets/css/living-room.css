@@ -1,0 +1,104 @@
+/* export const backgrounds = ["/wp-content/themes/interact-room/images/448502.jpg", "/wp-content/themes/interact-room/images/448519.jpg", "/wp-content/themes/interact-room/images/448526.jpg", "/wp-content/themes/interact-room/images/448502.jpg",] */
+
+#left-living-room {
+  width: 41.5%;
+  height: 44vw;
+  perspective: 155px;
+  z-index: -1;
+}
+
+#left-wall-living-room {
+  background-image: url('http://interact-room/wp-content/uploads/2021/08/448519.jpg');
+}
+
+#center-living-room {
+  position: absolute;
+  width: 35%;
+  height: 27vw;
+  top: 12vw;
+  left: 32%;
+  perspective: 160px;
+  z-index: -1;
+}
+
+#center-wall-living-room {
+  background-image: url('http://interact-room/wp-content/uploads/2021/08/448519.jpg');
+}
+
+#right-living-room {
+  width: 45%;
+  height: 45vw;
+  perspective: 185px;
+  z-index: -2;
+}
+
+#right-wall-living-room {
+  background-image: url('http://interact-room/wp-content/uploads/2021/08/448519.jpg');
+}
+
+
+
+
+
+
+/* initial image */
+
+
+ /* .walls {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+ }
+
+
+ .left {
+    width: 39%;
+    height: 45vw;
+    perspective: 155px;
+    z-index: -1;
+ }
+
+ .left-wall {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../images/448502.jpg');
+    background-repeat: round;
+    transform: rotateY(17deg);
+ }
+
+
+ .center {
+    position: absolute;
+    width: 35.5%;
+    height: 30vw;
+    top: 10vw;
+    left: 30.5%;
+    perspective: 160px;
+    z-index: -1;
+ }
+
+ .center-wall {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../images/448519.jpg');
+    background-repeat: round;
+ }
+
+
+ .right {
+    width: 45%;
+    height: 45vw;
+    perspective: 185px;
+    z-index: -1;
+ }
+
+ .right-wall {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../images/448526.jpg');
+  background-repeat: round;
+  transform: rotateY(-20deg);
+ } */
